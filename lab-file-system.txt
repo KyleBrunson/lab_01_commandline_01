@@ -34,6 +34,10 @@ Copy and paste the output of pwd below.
 
 
 
+/c/Users/Kizzle/mtec1002
+
+
+
 ==========
 5. Type:
 
@@ -43,7 +47,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 ==========
 6. Type:
@@ -54,7 +58,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  food/
 
 ==========
 7. Type:
@@ -65,7 +69,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  foo/  food/
 
 ==========
 8. Type:
@@ -76,7 +80,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Kizzle/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,6 +91,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Kizzle/mtec1002/foo/bar
 
 
 ==========
@@ -98,7 +103,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Kizzle/mtec1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -109,7 +114,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/Kizzle/mtec1002
 
 ==========
 12. Type:
@@ -121,6 +126,8 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
+foo/
+food/
 
 
 ==========
@@ -132,7 +139,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Kizzle
 
 ==========
 14. Type:
@@ -143,7 +150,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Kizzle
 
 ==========
 15. Type:
@@ -154,7 +161,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Kizzle
 
 ==========
 15. Type:
@@ -165,7 +172,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Kizzle/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +182,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+cheesemachine
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+$ pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +211,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+$ mkdir -p pineapple/orange/strawberry/lemon 
 
 ==========
 19. Make another directory called aardvark.  
@@ -213,6 +220,8 @@ Write the command you used to create the directory below:
 ----------
 
 
+mkdir aardvark
+
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -220,7 +229,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+drwxr-xr-x 1 Kizzle 197610 0 Aug 27 20:07 
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,7 +241,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz 
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -240,7 +249,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
@@ -248,43 +257,45 @@ What command did you use?
 What command did you use?
 ----------
 
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+The location of your directory.
 
 ==========
 29. What's a directory?
 ----------
 
-
+A directory is a folder that can contain other folders and files. 
 
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/c/Users/Kizzle/downloads
