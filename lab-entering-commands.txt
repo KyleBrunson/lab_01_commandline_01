@@ -18,6 +18,48 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
+'3D Objects'/
+ AppData/
+'Application Data'@
+ BrawlhallaReplays/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ fightcade.log
+ fightcade-debug.log
+ ggpofba-ng.bkp.ini
+ ggpo-ng.ini
+ Intel/
+'Jihosoft Android Phone Recovery'/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ mtec1002/
+ Music/
+'My Documents'@
+ ncftp/
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{7749912a-57ed-11e8-aa65-d050994d38a7}.TM.blf
+ NTUSER.DAT{7749912a-57ed-11e8-aa65-d050994d38a7}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{7749912a-57ed-11e8-aa65-d050994d38a7}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
 
 
 ==========
@@ -28,18 +70,20 @@ $ ls D<TAB>
 What happens?  Describe it below.
 ----------
 
-
+After I type 'ls D', nothing happens, but if I type 'ls d', the d becomes D.  
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
+Desktop/   Documents/ Downloads/
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -50,7 +94,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+'~$cle of Blood.docx'
+'~$le Brunson Narrative Essay.docx'
 
 ==========
 4.  Type:
@@ -60,6 +105,8 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+ ./
+ ../
 
 
 ==========
@@ -70,6 +117,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
+ls -a Documents
 
 
 ==========
@@ -80,7 +128,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+$ ls -a Documents
 
 ==========
 7.  Type:
@@ -90,7 +138,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Nothing happens.
 
 ==========
 8.  Type:
@@ -100,37 +148,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+<UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a and -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Documents
 
 ==========
 14.  Type:
@@ -140,7 +188,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,6 +198,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 ==========
@@ -159,3 +208,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls. The flag is -a. The argument is Desktop, and the prompt is $.
